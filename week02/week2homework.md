@@ -1,4 +1,3 @@
-# Map Review  
 荒川が氾濫した場合の足立区の洪水ハザードマップ
 ![adachiku](map/arakawa.jpg)
 https://www.catapoke.com/viewer/?open=6050c&lang=ja  p6
