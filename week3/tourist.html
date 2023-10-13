@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a7ad7fdb150f7bed1b73904f9426781 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8a7ad7fdb150f7bed1b73904f9426781" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8a7ad7fdb150f7bed1b73904f9426781 = L.map(
+                "map_8a7ad7fdb150f7bed1b73904f9426781",
+                {
+                    center: [29.86165849637374, 121.53639387143309],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24c26a9d8a3f72690ac719fe0285e361 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var marker_c3e6cba807068b7b4d67867539d02a0f = L.marker(
+                [29.872543319180473, 121.53936902329919],
+                {}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var icon_dd4fc5e85822bcaf104b8d67737dd9e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c3e6cba807068b7b4d67867539d02a0f.setIcon(icon_dd4fc5e85822bcaf104b8d67737dd9e3);
+        
+    
+        var popup_b71265c791c2d585e28cb0b4abc4d497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c27f378d30d3baa70adbed7a303f96a = $(`<div id="html_6c27f378d30d3baa70adbed7a303f96a" style="width: 100.0%; height: 100.0%;">天一閣</div>`)[0];
+                popup_b71265c791c2d585e28cb0b4abc4d497.setContent(html_6c27f378d30d3baa70adbed7a303f96a);
+            
+        
+
+        marker_c3e6cba807068b7b4d67867539d02a0f.bindPopup(popup_b71265c791c2d585e28cb0b4abc4d497)
+        ;
+
+        
+    
+    
+            marker_c3e6cba807068b7b4d67867539d02a0f.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f46d7d8f352d0d4dcae78e8ee7a94de = L.marker(
+                [29.865532963417284, 121.55088415246418],
+                {}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var icon_8017130bf9777e46f00a96ec1acda0a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9f46d7d8f352d0d4dcae78e8ee7a94de.setIcon(icon_8017130bf9777e46f00a96ec1acda0a3);
+        
+    
+        var popup_b8212979037f6574e7c2869b9380b24a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2262b484baf7d8ea76f617e714f85460 = $(`<div id="html_2262b484baf7d8ea76f617e714f85460" style="width: 100.0%; height: 100.0%;">天封塔</div>`)[0];
+                popup_b8212979037f6574e7c2869b9380b24a.setContent(html_2262b484baf7d8ea76f617e714f85460);
+            
+        
+
+        marker_9f46d7d8f352d0d4dcae78e8ee7a94de.bindPopup(popup_b8212979037f6574e7c2869b9380b24a)
+        ;
+
+        
+    
+    
+            marker_9f46d7d8f352d0d4dcae78e8ee7a94de.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7185752bbd32b5db6f321bcf9cfedcb = L.marker(
+                [29.874532862791188, 121.54654083068033],
+                {}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var icon_93d2a82182ba5ac9787d1371308192cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c7185752bbd32b5db6f321bcf9cfedcb.setIcon(icon_93d2a82182ba5ac9787d1371308192cf);
+        
+    
+        var popup_6e249ecf2b14d4189ea9a40dc0abcf03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99791ec9097ea64497ffe00c7b16c8e7 = $(`<div id="html_99791ec9097ea64497ffe00c7b16c8e7" style="width: 100.0%; height: 100.0%;">寧波鼓楼</div>`)[0];
+                popup_6e249ecf2b14d4189ea9a40dc0abcf03.setContent(html_99791ec9097ea64497ffe00c7b16c8e7);
+            
+        
+
+        marker_c7185752bbd32b5db6f321bcf9cfedcb.bindPopup(popup_6e249ecf2b14d4189ea9a40dc0abcf03)
+        ;
+
+        
+    
+    
+            marker_c7185752bbd32b5db6f321bcf9cfedcb.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_164606a2cfa41b13d026930f463ebfd5 = L.marker(
+                [29.877902842739356, 121.5601058583277],
+                {}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var icon_723c3f48b364b423770f0c57a16121f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_164606a2cfa41b13d026930f463ebfd5.setIcon(icon_723c3f48b364b423770f0c57a16121f0);
+        
+    
+        var popup_4f5b4fad03c8b4869ac231b4ce8b3655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48b1923b45949eeae74e64d0fa3801e1 = $(`<div id="html_48b1923b45949eeae74e64d0fa3801e1" style="width: 100.0%; height: 100.0%;">Old Bund</div>`)[0];
+                popup_4f5b4fad03c8b4869ac231b4ce8b3655.setContent(html_48b1923b45949eeae74e64d0fa3801e1);
+            
+        
+
+        marker_164606a2cfa41b13d026930f463ebfd5.bindPopup(popup_4f5b4fad03c8b4869ac231b4ce8b3655)
+        ;
+
+        
+    
+    
+            marker_164606a2cfa41b13d026930f463ebfd5.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f741e70e4bc199c7a5c3ed5f1991722a = L.marker(
+                [29.868266999803318, 121.54941372146395],
+                {}
+            ).addTo(map_8a7ad7fdb150f7bed1b73904f9426781);
+        
+    
+            var icon_5e32f09acdac14f11d3a0f962710dce3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f741e70e4bc199c7a5c3ed5f1991722a.setIcon(icon_5e32f09acdac14f11d3a0f962710dce3);
+        
+    
+        var popup_0731d803ad55877c29878c20bc0bbbed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0063fbd66058b5b59ac9d6e169520b37 = $(`<div id="html_0063fbd66058b5b59ac9d6e169520b37" style="width: 100.0%; height: 100.0%;">Catholic Church</div>`)[0];
+                popup_0731d803ad55877c29878c20bc0bbbed.setContent(html_0063fbd66058b5b59ac9d6e169520b37);
+            
+        
+
+        marker_f741e70e4bc199c7a5c3ed5f1991722a.bindPopup(popup_0731d803ad55877c29878c20bc0bbbed)
+        ;
+
+        
+    
+    
+            marker_f741e70e4bc199c7a5c3ed5f1991722a.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
